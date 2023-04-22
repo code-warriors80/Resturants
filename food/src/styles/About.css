@@ -1,0 +1,109 @@
+.about
+{
+               width: 100%;
+               background-color: whitesmoke;
+               color: white;
+               flex-wrap: wrap-reverse;
+               display: flex;
+               align-items: center;
+               padding-top: 50px;
+               justify-content: space-around;
+}
+
+.about-text
+{
+               width: 40%;
+               color: #333;
+               margin-top: 70px;
+               z-index: 555;
+}
+
+.about-text h4
+ {
+               font-family: 'Roboto Condensed', sans-serif;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               margin-bottom: 15px;
+ }
+
+ .about-text h2
+ {
+               font-size: 70px;
+               font-weight: 600;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .about-text p
+ {
+               font-size: 17px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-weight: 300;
+               line-height: 30px;
+               width: 90%;
+               margin-top: 30px;
+               color: gray;
+               word-spacing: 5px;
+ }
+
+ .about-text h5
+ {
+               width: 85%;
+               margin: 15px 0;
+               font-size: 17px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               line-height: 30px;
+ }
+
+.about-image
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.about-image img
+{
+               width: 80%;
+}
+
+ @media screen and (max-width: 800px) 
+ {
+               .about-text
+{
+               width: 100%;
+               color: #333;
+               margin-top: 70px;
+               padding: 20px;
+               z-index: 555;
+               text-align: center;
+}
+
+.about-text p
+{
+              font-size: 17px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              font-weight: 300;
+              line-height: 30px;
+              width: 100%;
+              margin-top: 30px;
+              color: gray;
+              padding: 0 20px;
+              word-spacing: 5px;
+}
+
+.about-text h5
+{
+              width: 100%;
+              margin: 15px 0;
+              padding: 0 50px;
+              font-size: 17px;
+              font-family: 'Roboto Condensed', sans-serif;
+              line-height: 30px;
+}
+
+.about-text h2
+{
+               margin-top: 10px;
+              font-size: 55px;
+              font-family: 'Roboto Condensed', sans-serif;
+}
+ }

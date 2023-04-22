@@ -1,0 +1,137 @@
+.menu
+{
+               background-image: url(../img/black-smooth-wall-textured-background.jpg);
+               background-position: center;
+               background-size: cover;
+               color: white;
+               padding: 50px 0 70px 0;
+}
+
+.lef
+{
+               position: absolute;
+               left: 40px;
+}
+
+.img-header
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.img-header img
+{
+               width: 20%;
+}
+
+.menu-parent
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.menu-list
+{
+               width: 80%;
+               display: flex;
+               align-items: center;
+               justify-content: space-around;
+               padding: 50px 0 0 0;
+}
+
+.first-menu
+{
+               display: block;
+               /* border: 1px solid rgb(253, 183, 54); */
+               list-style: none;
+               border-radius: 15px;
+               padding: 20px 20px;
+               border: 1px dashed rgb(249, 172, 28);
+}
+
+.first-menu h3
+{
+               text-align: center;
+               font-size: 50px;
+               opacity: 10;
+               font-family: cursive;
+               padding: 10px;
+}
+
+.first-menu li
+{
+               font-size: 20px;
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               padding: 10px;
+}
+
+.first-menu li span
+{
+               font-size: 17px;
+               font-family: 400;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               color: rgb(177, 176, 176);
+}
+
+
+.second-menu
+{
+               display: block;
+               /* border: 1px solid rgb(253, 183, 54); */
+               list-style: none;
+               border-radius: 15px;
+               padding: 20px 20px;
+               border: 1px dashed rgb(249, 172, 28);
+}
+
+.second-menu h3
+{
+               text-align: center;
+               font-size: 50px;
+               opacity: 10;
+               font-family: cursive;
+               padding: 10px;
+}
+
+.second-menu li
+{
+               font-size: 20px;
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               padding: 10px;
+}
+
+.second-menu li span
+{
+               font-size: 17px;
+               font-family: 400;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               color: rgb(177, 176, 176);
+}
+
+@media screen and (max-width: 800px) {
+               .img-header img
+{
+               width: 30%;
+}
+
+               .menu-list
+               {
+                              width: 90%;
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-around;
+                              padding: 50px 0 0 0;
+               }    
+
+               .second-menu
+{
+               display: none;
+               /* border: 1px solid rgb(253, 183, 54); */
+               list-style: none;
+               border-radius: 15px;
+               padding: 20px 20px;
+               border: 1px dashed rgb(249, 172, 28);
+}
+}

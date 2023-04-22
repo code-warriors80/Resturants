@@ -1,0 +1,122 @@
+.testimony
+{
+               width: 100%;
+               background-color: whitesmoke;
+               color: white;
+               flex-wrap: wrap;
+               display: flex;
+               align-items: center;
+               padding-top: 50px;
+               justify-content: space-around;
+}
+
+.testimony-text
+{
+               width: 40%;
+               color: #333;
+               margin-top: 70px;
+               z-index: 555;
+}
+
+.testimony-text h4
+ {
+               font-family: 'Roboto Condensed', sans-serif;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               margin-bottom: 15px;
+               
+ }
+
+ .testimony-text h2
+ {
+               font-size: 70px;
+               width: 80%;
+               font-weight: 600;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .testimony-text h1
+ {
+               font-size: 45px;
+               font-family: cursive;
+               margin-top: 15px;
+               color: rgb(249, 172, 28);
+               font-weight: 100;
+ }
+
+ .testimony-text p
+ {
+               width: 80%;
+               font-size: 17px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-weight: 300;
+               line-height: 30px;
+               margin-top: 15px;
+               color: gray;
+               word-spacing: 5px;
+ }
+
+ .testimony-text h5
+ {
+               width: 85%;
+               margin: 35px 0 10px 0;
+               font-size: 17px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               line-height: 30px;
+ }
+
+.testimony-image
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.testimony-image img
+{
+               width: 80%;
+}
+
+ @media screen and (max-width: 800px) 
+ {
+               .testimony-text
+{
+               width: 100%;
+               color: #333;
+               margin-top: 70px;
+               padding: 20px;
+               z-index: 555;
+               text-align: center;
+}
+
+.testimony-text p
+{
+              font-size: 17px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              font-weight: 300;
+              line-height: 30px;
+              width: 100%;
+              margin-top: 30px;
+              color: gray;
+              padding: 0 20px;
+              word-spacing: 5px;
+}
+
+.testimony-text h5
+{
+              width: 100%;
+              margin: 15px 0;
+              padding: 0 50px;
+              font-size: 17px;
+              font-family: 'Roboto Condensed', sans-serif;
+              line-height: 30px;
+}
+
+.testimony-text h2
+{
+               margin-top: 10px;
+              font-size: 55px;
+              width: 100%;
+              padding: 0 70px;
+              font-family: 'Roboto Condensed', sans-serif;
+}
+ }

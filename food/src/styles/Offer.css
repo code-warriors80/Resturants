@@ -1,0 +1,163 @@
+.offer
+{
+               color: black;
+               background-color: whitesmoke;
+}
+
+.offer h1
+{
+               font-size: 60px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: 600;
+               padding: 50px 0;
+}
+
+.offer-container
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               padding: 20px 0;
+}
+
+.offer-parent
+{
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               width: 80%;
+               flex-wrap: wrap;
+}
+
+.offer-main
+{
+               width: 43%;
+               padding: 50px 30px;
+               background-color: white;
+}
+
+.offer-main img
+{
+               width: 100%;
+               margin-top: 30px;
+               margin-bottom: 20px;
+}
+
+.offer-main h2
+{
+               font-family: 'Roboto Condensed', sans-serif;
+               font-size: 50px;
+               margin: 15px 0;
+}
+
+.offer-main p
+{
+               font-size: 19px;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               line-height: 35px;
+               color: gray;
+               margin-bottom: 20px;
+}
+
+.price
+{
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               padding: 20px 0;
+}
+
+.price h3
+{
+               font-size: 36px;
+               font-family: 'Courier New', Courier, monospace;
+}
+
+.price h3 span
+{
+               font-size: 16px;
+               position: relative;
+               top: -10px;
+}
+
+.price a
+{
+               background-color: black;
+               color: white;
+               text-decoration: none;
+               font-family: 'Roboto Condensed', sans-serif;
+               padding: 20px;
+               border-radius: 40px;
+}
+
+.offer-grid
+{
+               width: 50%;
+               display: grid;
+               gap: 20px;
+               grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+.offer-box
+{
+               background-color: white;
+               text-align: center;
+               padding: 30px 0;
+               border-radius: 15px;
+               transform: skew(-188deg);
+}
+
+.offer-box img
+{
+               margin-bottom: 10px;
+}
+
+.offer-box h2
+{
+               line-height: 30px;
+               font-size: 19px;
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.offer-box h4
+{
+               margin: 15px 0;
+               color: rgb(249, 172, 28);
+               font-weight: 600;
+               font-size: 25px;
+               font-family: 'Courier New', Courier, monospace;
+               border-radius: 30px;
+}
+
+.offer-box h4 span
+{
+               font-size: 16px;
+               position: relative;
+               top: -6px;
+}
+
+.offer-box a
+{
+               text-decoration: none;
+               color: #000;
+               font-size: 17px;
+               font-weight: 700;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+               .offer-main
+               {
+                              width: 100%;
+                              padding: 30px;
+               }
+
+               .offer-grid
+{
+               width: 100%;
+               display: grid;
+               gap: 20px;
+               grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+}

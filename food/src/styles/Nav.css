@@ -1,0 +1,45 @@
+nav
+{
+  background-image: url(../img/black-smooth-wall-textured-background.jpg);
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.logo
+{
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo h1
+{
+  font-size: 45px;
+}
+
+nav ul
+{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+nav ul li
+{
+  display: inline-block;
+}
+
+nav ul li a
+{
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  font-weight: 600;
+  font-family: 'Roboto Condensed', sans-serif;
+}

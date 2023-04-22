@@ -1,0 +1,73 @@
+.meals
+{
+               background-color: whitesmoke;
+               padding-bottom: 80px;
+}
+
+.meals h1
+{
+               font-size: 60px;
+               text-align: center;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-weight: 600;
+               padding: 50px 0;
+}
+
+.meals-container
+{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+}
+
+.meals-parent
+{
+               width: 80%;
+               display: grid;
+               gap: 10px;
+               grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+               padding: 10px;
+}
+
+.meals-box
+{
+               text-align: center;
+               border: 1px dashed whitesmoke;
+               padding: 10px 0;
+}
+
+.meals-box h3
+{
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               font-size: 20px;
+               margin: 20px 0;
+}
+
+.meals-box p
+{
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               color: gray;
+               line-height: 30px;
+               margin-bottom: 30px;
+}
+
+.meals-box h4
+{
+               font-size: 27px;
+               font-family: 'Courier New', Courier, monospace;
+               margin-bottom: 20px;
+               color: rgb(249, 172, 28);
+}
+
+.meals-box h4 span
+{
+               font-size: 16px;
+               position: relative;
+               top: -8px;
+}
+
+.meals-box:hover
+{
+               border-radius: 15px;
+               border: 1px dashed rgb(249, 172, 28);
+}
